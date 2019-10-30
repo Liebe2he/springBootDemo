@@ -11,6 +11,7 @@
         <version>2.1.0.RELEASE</version>
     </parent>
     <dependencies>
+        <!-- 新增注释 -->
         <!-- web组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
