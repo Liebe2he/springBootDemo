@@ -17,11 +17,21 @@ public class HelloWorldController {
         return "Hello World";
     }
 
+    /*
+    * RequestMapping,get方式
+    * author mojianxiong
+    * date：20191112
+    */
     @GetMapping("/get")
     public String Get() {
         return "get success!";
     }
 
+    /*
+    * jsp文件映射,需要在application.properties文件配置
+    * author mojianxiong
+    * date：20191112
+    */
     @GetMapping("/test_page")
     public String testPage() {
         return "test_page!";
