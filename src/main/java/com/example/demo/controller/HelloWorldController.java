@@ -24,16 +24,13 @@ public class HelloWorldController {
     */
     @GetMapping("/get")
     public String Get() {
-        return "get success!";
+        return "get success2!";
     }
 
-    /*
-    * jsp文件映射,需要在application.properties文件配置
-    * author mojianxiong
-    * date：20191112
-    */
-    @GetMapping("/test_page")
-    public String testPage() {
-        return "test_page!";
+    @GetMapping("/get3")
+    public String Get3() {
+        System.out.println("热部署测试3333");
+        return "get3 success!";
     }
+
 }
