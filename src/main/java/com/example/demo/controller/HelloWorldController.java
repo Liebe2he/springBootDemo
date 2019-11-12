@@ -21,4 +21,9 @@ public class HelloWorldController {
     public String Get() {
         return "get success!";
     }
+
+    @GetMapping("/test_page")
+    public String testPage() {
+        return "test_page!";
+    }
 }
